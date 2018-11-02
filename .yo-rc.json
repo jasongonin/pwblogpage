@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "pwblogpage",
+    "packageName": "pw.jgo.jhipster.application",
+    "packageFolder": "pw/jgo/jhipster/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "ca",
+      "en",
+      "fr",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "NDAyYWI2MDM0YmY1MjM2MjNjZjdlMjYwZmEwYWJhYmE3MjUxNmU1YjljMDliMjBiNTc1MGVjNWFlMGY5ZjY4NDczYmViODZmNTY0Yjk4MzA3MjEzZmZlZDk2NjQyYmM2Njc3YjNmOTczOGJhMjU4MzkyZmNlODhhYmU0YzMyYTU=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "jasongonin",
+  "repository-name": "pwblogpage"
+}
